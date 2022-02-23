@@ -1,6 +1,6 @@
 {
   "name": "my-super-cool-project",
-  "version": "1.0.0",
+  "version": "1.0.0-pre.5",
   "description": "A Cool Project That Helps Me To Post Project Content To Bahamut, A Gaming Forum.",
   "main": "index.js",
   "scripts": {

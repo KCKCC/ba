@@ -13,6 +13,6 @@ jobs:
       - name: Bahamut Automation
         uses: JacobLinCool/Bahamut-Automation@1.0.0-pre.5
         with:
-          modules: "login,ad_handler,sign,report,guild,report,answer,report,lottery,report,logout,report,telegram"
+          modules: "login,ad_handler,sign,report,guild,report,answer,report,lottery,report,logout,report,telegram,del_mail"
           parameters: ${{ secrets.parameters || '{}' }}
           secrets: ${{ secrets.secrets }}

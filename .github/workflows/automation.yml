@@ -14,5 +14,5 @@ jobs:
         uses: JacobLinCool/Bahamut-Automation@1.0.0-pre.5
         with:
           modules: "ad_handler,login,sign,report,guild,answer,report,lottery,report,del_mail,logout,report,discord,issue"
-          parameters: '{ "lottery_max_parallel": 3, "del_mail_match": [ { "title": "【勇者福利社】成功獲得抽獎資格通知信" } ], "only_failed": true }'
+          parameters: '{ "lottery_max_parallel": 3, "del_mail_match": [ { "title": "【勇者福利社】成功獲得抽獎資格通知信" },	{ "title": "動畫瘋獲獎通知" } ], "only_failed": true }'
           secrets: ${{ secrets.secrets }}
